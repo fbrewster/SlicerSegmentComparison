@@ -4,7 +4,7 @@ This extension contains two tool for comparing segmentations:
 - Bidirectional Local Distance (BLD)
 - Simultaneous Truth and Performance Level Estimation (STAPLE)
 
-# ![BLD Logo](BLD\Resources\Icons\BLD.png) Bidirectional Local Distance
+# <img src="/BLD/Resources/Icons/BLD.png" width="100" height="100"> Bidirectional Local Distance
 
 The module implments a bidirectional local distance (BLD) measure decomposed into cardinal directions. BLD is a robust surface distance metric.
 For a full description see Kim et al (DOI:[10.1118/1.4754802](https://doi.org/10.1118/1.4754802)).
@@ -61,12 +61,12 @@ This can greatly increase the number of contour points and so computation time c
 *<font color="red">Warning, this means the original representation is lost!</font>*
 
 ### File Output
-![BLD File Screenshot](BLDFIleScreenshot.png)
+![BLD File Screenshot](BLDFileScreenshot.png)
 To aid in data recording, the file output menu allows the data in the output table to be written to a CSV, Excel or Pandas Pickle file.
 If the new file option is used then the file is named "BLD_Results".
 If the append option is used then the file is read in, a new row is added and the file is overwritten.
 
-# ![STAPLE Logo](STAPLE\Resources\Icons\STAPLE.png) STAPLE
+# <img src="/STAPLE/Resources/Icons/STAPLE.png" width="100" height="100"> STAPLE
 This module exposes [SimpltITK's implmentation](https://simpleitk.org/doxygen/v2_5/html/classitk_1_1simple_1_1STAPLEImageFilter.html) of the Simultaneous Truth and Performance Level Estimation (STAPLE) aglorithm.
 For a full description, see Warfield at al. (DOI:[10.1007/3-540-45786-0_37](https://doi.org/10.1007/3-540-45786-0_37)).
 The STAPLE algorithm can be used for generating consensus contours from multiple observers.
