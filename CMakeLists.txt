@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.16.3...3.19.7 FATAL_ERROR)
 
-project(SegmentTools)
+project(SegmentComparison)
 
 #-----------------------------------------------------------------------------
 # Extension meta-information
 set(EXTENSION_HOMEPAGE "https://github.com/fbrewster/SlicerSegmentTools")
 set(EXTENSION_CONTRIBUTORS "Frank Brewster (The Christie NHS Foundation Trust)")
 set(EXTENSION_DESCRIPTION "Tools for comparing segmentations")
-set(EXTENSION_ICONURL "https://raw.githubusercontent.com/fbrewster/SlicerSegmentTools/main/SegmentTools.png")
-set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/fbrewster/SlicerSegmentTools/main/BLDGeneralScreenshot.png https://raw.githubusercontent.com/fbrewster/SlicerSegmentTools/main/STAPLEGeneralScreenshot.png")
+set(EXTENSION_ICONURL "https://raw.githubusercontent.com/fbrewster/SlicerSegmentComparison/main/SegmentComparison.png")
+set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/fbrewster/SlicerSegmentComparison/main/BLDGeneralScreenshot.png https://raw.githubusercontent.com/fbrewster/SlicerSegmentComparison/main/STAPLEGeneralScreenshot.png")
 set(EXTENSION_DEPENDS "NA") # Specified as a list or "NA" if no dependencies
 
 #-----------------------------------------------------------------------------
