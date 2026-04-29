@@ -4,7 +4,7 @@ project(SegmentComparison)
 
 #-----------------------------------------------------------------------------
 # Extension meta-information
-set(EXTENSION_HOMEPAGE "https://github.com/fbrewster/SlicerSegmentTools")
+set(EXTENSION_HOMEPAGE "https://github.com/fbrewster/SlicerSegmentComparison")
 set(EXTENSION_CONTRIBUTORS "Frank Brewster (The Christie NHS Foundation Trust)")
 set(EXTENSION_DESCRIPTION "Tools for comparing segmentations")
 set(EXTENSION_ICONURL "https://raw.githubusercontent.com/fbrewster/SlicerSegmentComparison/main/SegmentComparison.png")
