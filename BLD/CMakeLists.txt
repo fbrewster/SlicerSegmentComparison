@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-set(MODULE_NAME Bidirectional Local Distance)
+set(MODULE_NAME "Bidirectional Local Distance")
 
 #-----------------------------------------------------------------------------
 set(MODULE_PYTHON_SCRIPTS
