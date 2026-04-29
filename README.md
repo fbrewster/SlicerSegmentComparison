@@ -1,4 +1,4 @@
-![Segment Tools](SegmentTools_Header.png)
+![Segment Tools](SegmentComparison_Header.png)
 
 This extension contains two tool for comparing segmentations:
 - Bidirectional Local Distance (BLD)
